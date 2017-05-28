@@ -72,4 +72,8 @@ public class Task implements Element {
         this.user = user;
         user.getTasks().add(this);
     }
+
+    public static Task parse(String string) {
+        return null;
+    }
 }

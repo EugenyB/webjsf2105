@@ -3,45 +3,73 @@
   <ID>JAVA</ID>
   <OriginalElement />
   <nodes>
-    <node x="41.0" y="55.5">model.Element</node>
-    <node x="0.0" y="213.0">model.User</node>
-    <node x="185.0" y="0.0">dao.AbstractDAO</node>
-    <node x="205.0" y="247.0">dao.UserDAO</node>
-    <node x="34.25000000000006" y="405.0">beans.UsersBean</node>
+    <node x="201.72916666666663" y="0.0">model.Element</node>
+    <node x="113.35416666666663" y="405.0">model.User</node>
+    <node x="418.35416666666663" y="147.0">dao.AbstractDAO</node>
+    <node x="547.1875" y="450.0">dao.TaskDAO</node>
+    <node x="348.1875" y="450.0">dao.UserDAO</node>
+    <node x="163.10416666666663" y="619.0">beans.UsersBean</node>
+    <node x="0.0" y="102.0">model.Task</node>
   </nodes>
   <notes />
   <edges>
     <edge source="beans.UsersBean" target="dao.UserDAO">
-      <point x="69.66666666666666" y="-49.0" />
-      <point x="208.4166666666667" y="380.0" />
-      <point x="294.5" y="380.0" />
+      <point x="69.66666666666669" y="-49.0" />
+      <point x="337.2708333333333" y="594.0" />
+      <point x="437.6875" y="594.0" />
       <point x="0.0" y="37.0" />
     </edge>
     <edge source="beans.UsersBean" target="model.User">
-      <point x="-69.66666666666669" y="-49.0" />
-      <point x="69.08333333333337" y="380.0" />
-      <point x="46.25" y="380.0" />
-      <point x="-46.25" y="71.0" />
+      <point x="0.0" y="-49.0" />
+      <point x="51.25" y="82.0" />
+    </edge>
+    <edge source="model.Task" target="model.Element">
+      <point x="0.0" y="-126.5" />
+      <point x="149.5" y="77.0" />
+      <point x="227.47916666666663" y="77.0" />
+      <point x="-25.75" y="26.0" />
+    </edge>
+    <edge source="dao.TaskDAO" target="dao.AbstractDAO">
+      <point x="0.0" y="-37.0" />
+      <point x="636.6875" y="380.0" />
+      <point x="582.6041666666666" y="380.0" />
+      <point x="54.75" y="81.5" />
+    </edge>
+    <edge source="model.Task" target="model.User">
+      <point x="74.75" y="126.5" />
+      <point x="224.25" y="380.0" />
+      <point x="215.85416666666663" y="380.0" />
+      <point x="0.0" y="-82.0" />
     </edge>
     <edge source="model.User" target="model.Element">
-      <point x="0.0" y="-71.0" />
-      <point x="0.0" y="26.0" />
+      <point x="68.33333333333331" y="-82.0" />
+      <point x="284.18749999999994" y="380.0" />
+      <point x="356.5833333333333" y="380.0" />
+      <point x="356.5833333333333" y="77.0" />
+      <point x="278.97916666666663" y="77.0" />
+      <point x="25.75" y="26.0" />
     </edge>
     <edge source="dao.UserDAO" target="dao.AbstractDAO">
       <point x="0.0" y="-37.0" />
-      <point x="0.0" y="81.5" />
+      <point x="437.6875" y="380.0" />
+      <point x="473.10416666666663" y="380.0" />
+      <point x="-54.75" y="81.5" />
+    </edge>
+    <edge source="model.User" target="model.Task">
+      <point x="-68.33333333333331" y="-82.0" />
+      <point x="147.52083333333331" y="380.0" />
+      <point x="74.75" y="380.0" />
+      <point x="-74.75" y="126.5" />
     </edge>
   </edges>
-  <settings layout="Hierarchic Group" zoom="1.2000000000000002" x="211.08333333333326" y="290.99999999999994" />
-  <SelectedNodes>
-    <node>beans.UsersBean</node>
-  </SelectedNodes>
+  <settings layout="Hierarchic Group" zoom="1.0" x="363.5" y="358.5" />
+  <SelectedNodes />
   <Categories>
     <Category>Fields</Category>
-    <Category>Constructors</Category>
-    <Category>Methods</Category>
     <Category>Inner Classes</Category>
+    <Category>Constructors</Category>
     <Category>Properties</Category>
+    <Category>Methods</Category>
   </Categories>
   <SCOPE>All</SCOPE>
   <VISIBILITY>private</VISIBILITY>
