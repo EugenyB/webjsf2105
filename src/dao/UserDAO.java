@@ -3,11 +3,7 @@ package dao;
 import model.User;
 
 import javax.ejb.Singleton;
-import javax.ejb.Stateless;
 
-/**
- * Created by yevge on 21.05.2017.
- */
 @Singleton
 public class UserDAO extends AbstractDAO<User> {
 
